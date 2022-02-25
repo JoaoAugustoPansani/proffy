@@ -2,7 +2,6 @@
     Proffy 
 </h1>
 
-<br>
 
 ## 🚀 Tecnologies
 

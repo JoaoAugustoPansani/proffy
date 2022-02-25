@@ -29,7 +29,7 @@ async function pageStudy(req, res) {
         SELECT class_schedule.*
         FROM class_schedule
         WHERE class_schedule.class_id = classes.id
-        AND class_schedule.weekday = ${filters.weekday}
+        AND class_schedule.weekday = ${filters.weekday + 1}
         AND class_schedule.time_from <= ${timeToMinutes}
         AND class_schedule.time_to > ${timeToMinutes}
         )
